@@ -97,9 +97,9 @@ FUTURE_ML_01/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── main.py
-├── sales_forecasting_model.pkl
-└── forecast_results.png
+├── train_model.py
+├── predict.py
+└── models
 
 ```
 
