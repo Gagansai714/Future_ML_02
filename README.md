@@ -92,15 +92,19 @@ Accurate demand prediction helps enterprises optimize inventory management, impr
 ## 📂 Repository Structure
 
 ```text
-FUTURE_ML_01/
+FUTURE_ML_02/
 │
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── train_model.py
 ├── predict.py
-└── models
-
+├── data/
+│   └── all_tickets_processed_improved_v3.csv
+└── models/
+    ├── tfidf_vectorizer.pkl
+    ├── category_model.pkl
+    └── priority_model.pkl
 ```
 
 ---
